@@ -5,7 +5,7 @@
     justify-content: space-between;
     padding-top: 20px;
     flex-wrap: wrap;
-    padding-bottom: 23vw;
+    padding-bottom: 20vw;
     align-items: center;
 }
 
@@ -121,11 +121,5 @@
     .header__item{
         display: block;
         text-align: center;
-    }
-}
-
-@media screen and (orientation: landscape) {
-    .header{
-        padding-bottom: 0vw !important;
     }
 }
