@@ -1,0 +1,35 @@
+.title{
+    padding: 20px;
+}
+
+.title_pb115{
+    padding-bottom: 115px;
+}
+
+.title__text{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.title__subtext{
+    color: #fff;
+    font-family: "Roboto - Thin";
+    font-size: 28px;
+    text-align: center;
+}
+
+.title__subtext_yellow{
+    color: #fcff19;
+}
+
+@media screen and (orientation: landscape) {
+    .title{
+        padding-bottom: 110px !important;
+    }
+}

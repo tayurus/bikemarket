@@ -2,8 +2,23 @@ doctype html
 html(lang="en")
     include ../blocks/head/head.jade
     body
+    .container.container_top
         include ../blocks/header/header.jade
-
-        main
+        
+        .title
+            h2.title__text HANDMADE BICYCLE
+            h3.title__subtext You 
+                span.title__subtext.title__subtext_yellow create 
+                |the 
+                span.title__subtext.title__subtext_yellow journey
+                |, we supply the 
+                span.title__subtext.title__subtext_yellow parts
+                |.
+                
+        .container__to-bottom 
+    main
     
-        include ../blocks/footer/footer.jade
+        
+
+    
+    include ../blocks/footer/footer.jade

@@ -1,0 +1,22 @@
+.container{
+    max-width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.container_top{
+    max-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: url("img/container_top.png") no-repeat center / cover;
+}
+
+.container__to-bottom{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    width: 66px;
+    height: 77px;
+    background: url("img/to-bottom.png") no-repeat center;
+}
