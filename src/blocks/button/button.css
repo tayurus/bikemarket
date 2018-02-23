@@ -1,0 +1,41 @@
+.button{
+    padding: 18px 24px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button_category{
+    display: none;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    background-color: transparent;
+    position: absolute;
+    z-index: 100;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button_category:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.button_buy{
+    background-color: #000;
+    color: #fcff19;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.button_buy:hover{
+    background-color: #fff;
+    color: #000;
+}

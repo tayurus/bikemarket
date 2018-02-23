@@ -47,6 +47,7 @@
     display: none;
     position: absolute;
     background-color: #fcff19;
+    border-radius: 10px;
 }
 
 .header__item{
@@ -60,6 +61,9 @@
     padding: 15px;
     align-self: flex-start;
     position: relative;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .header__subitem{
@@ -91,6 +95,7 @@
     height: 27px;
     background: url("img/basket.png") no-repeat center / cover;
     align-self: center;
+    margin: auto;
 }
 
 .header__basket:hover{
@@ -104,14 +109,26 @@
     }
 }
 
+
 @media (max-width:480px),(max-device-width:480px) {
     .header, .header__menu{
         flex-direction: column;
         width: 100%;
+        padding-bottom: 0vw;
     }
 
     .header__menu{
         display: none;
+    }
+
+    .header__item{
+        padding: 10px;
+    }
+
+    .header__submenu{
+        position: relative;
+        padding: 0px;
+        width: auto;
     }
 
     .header__hamburger{

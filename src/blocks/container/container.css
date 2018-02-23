@@ -4,6 +4,13 @@
     position: relative;
 }
 
+.container_bikes{
+    width: 100%;
+    max-width: 100%;
+    background: #fff;
+    padding-bottom: 20px;
+}
+
 .container_top{
     max-width: 100%;
     width: 100%;
@@ -19,4 +26,12 @@
     width: 66px;
     height: 77px;
     background: url("img/to-bottom.png") no-repeat center;
+    cursor: pointer;
+}
+
+.container_categories{
+    width: 100%;
+    max-width: 100%;
+    padding: 75px 10px 175px 10px;
+    background: url("img/categories.png") no-repeat center / cover;
 }

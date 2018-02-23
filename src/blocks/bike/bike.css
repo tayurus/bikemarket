@@ -1,0 +1,60 @@
+.bike{
+    max-width: 490px;
+    margin: auto;
+}
+
+.bike__img{
+    width: 490px;
+    height: 391px;
+    margin-bottom: 10px;
+}
+
+.bike__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bike__info{
+    max-width: 150px;
+}
+
+.bike__title{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bike__price{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.bike__controls{
+    width: 225px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bike__select{
+    width: 144px;
+    padding: 18px 20px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+@media (max-width:550px),(max-device-width:550px) {
+    .bike{
+        max-width: 300px;
+    }
+
+    .bike__img{
+        width: 300px;
+        height: 230px
+    }
+}

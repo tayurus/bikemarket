@@ -28,8 +28,18 @@
     color: #fcff19;
 }
 
+.title__text_middle{
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title__text_black{
+    color: #000;
+}
+
 @media screen and (orientation: landscape) {
-    .title{
-        padding-bottom: 110px !important;
+    .title_top{
+        padding-bottom: 110px!important;
     }
 }

@@ -1,3 +1,6 @@
+include ../blocks/category/category.jade
+include ../blocks/bike/bike.jade
+
 doctype html
 html(lang="en")
     include ../blocks/head/head.jade
@@ -5,7 +8,7 @@ html(lang="en")
     .container.container_top
         include ../blocks/header/header.jade
         
-        .title
+        .title.title_top
             h2.title__text HANDMADE BICYCLE
             h3.title__subtext You 
                 span.title__subtext.title__subtext_yellow create 
@@ -15,8 +18,31 @@ html(lang="en")
                 span.title__subtext.title__subtext_yellow parts
                 |.
                 
-        .container__to-bottom 
+        .container__to-bottom
+        
     main
+    
+        .container.container_categories
+            .title
+                h2.title__text.title__text_middle.title__text_black Categories
+            .grid.grid_categories
+                +category("img/category1.png","FIXED / SINGLE SPEED", "Are You ready for the 27.5 Revolution?")
+                +category("img/category2.png","PREMIUM SERIES", "Exclusive  Bike Components")
+                +category("img/category3.png","CITY BIKES", "Street Playground")
+                
+        .container.container_bikes
+            .title
+                h2.title__text.title__text_middle.title__text_black POPULAR BIKES
+            .container.container_bikes.owl-carousel.owl-theme
+                +bike("img/bike1.png", "FIXED GEAR", "$1249.00", ["карбоновая рама", "гидравлические тормоза", "фулл-фейс шлем"])
+                +bike("img/bike2.png", "BIG BOY ULTRA", "$282.00", ["карбоновая рама", "гидравлические тормоза", "фулл-фейс шлем"])
+                +bike("img/bike3.png", "SANCHAEZ", "$567.00", ["карбоновая рама", "гидравлические тормоза", "фулл-фейс шлем"])
+                +bike("img/bike1.png", "FIXED GEAR", "$1249.00", ["карбоновая рама", "гидравлические тормоза", "фулл-фейс шлем"])
+                +bike("img/bike2.png", "BIG BOY ULTRA", "$282.00", ["карбоновая рама", "гидравлические тормоза", "фулл-фейс шлем"])
+                +bike("img/bike3.png", "SANCHAEZ", "$567.00", ["карбоновая рама", "гидравлические тормоза", "фулл-фейс шлем"])
+            
+                    
+            
     
         
 

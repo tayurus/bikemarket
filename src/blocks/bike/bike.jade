@@ -1,0 +1,12 @@
+mixin bike(imgSrc, title, price, options)
+    .bike
+        .bike__img(style="background:url("+imgSrc+") no-repeat center / cover")
+        .bike__row
+            .bike__info
+                .bike__title=title
+                .bike__price=price
+            .bike__controls
+                select.bike__select
+                    each val, index in options
+                        option=val
+                button.button.button_buy buy
